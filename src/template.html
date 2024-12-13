@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dynamic User Interface Elements</title>
 </head>
 <body>
+    <div class="carousel">
+        <div class="carousel-wrapper">
+            <button class="scroll-left">&lt;</button>
+            <div class="frame">
+                <div class="carousel-items" style="position: relative;">
+                    <img src="./img/cat-1.jpg" alt="A grumpy old soggy cat">
+                    <img src="./img/cat-2.jpg" alt="A confused young soggy cat">
+                    <img src="./img/cat-3.jpg" alt="A determined vengeful soggy cat">
+                    <img src="./img/cat-4.jpg" alt="A relaxed masculine soggy cat">
+                    <img src="./img/cat-5.jpg" alt="A wise pondering soggy cat">
+                </div>
+            </div>
+            <button class="scroll-right">&gt;</button>
+        </div>
+        <div class="carousel-navigation">
+        </div>
+    </div>
     
+    <div class="drop-down">
+        <button class="button">Show List</button>
+        <ul class="menu" style="display: none">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ul>
+    </div>
 </body>
 </html>
